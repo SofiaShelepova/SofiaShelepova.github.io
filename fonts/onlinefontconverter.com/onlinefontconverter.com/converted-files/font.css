@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Alike-Regular';
+  src: url('Alike-Regular.eot');
+  src: url('Alike-Regular.eot?#iefix') format('embedded-opentype'),
+       url('Alike-Regular.svg#Alike-Regular') format('svg'),
+       url('Alike-Regular.ttf') format('truetype'),
+       url('Alike-Regular.woff') format('woff'),
+       url('Alike-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

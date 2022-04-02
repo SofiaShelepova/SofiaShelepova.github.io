@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	
+	<title>Цифровая ночь</title>
+	<link rel="stylesheet" href="css/main.css">
+
+	<style>
+   li {
+    list-style-type: none; /* Убираем маркеры */
+   }</style>
+
+</head>
+<body>
+		<header id="header" class="header"> 
+			<div class="container position"> 
+				<div class="header-box">
+					<div class="menu-box">
+					<a href="#header"><img src="css/img/logocn.svg" alt="CN" class="logo"></a>
+
+					<ul class="menu">
+						<li><a href="#about" class="link">о проекте</a></li>
+						<li><a href="#thisyear" class="link">этот год</a></li>
+						<li><a href="#contacts"class="link">контакты</a></li></ul>
+
+				    </div>
+				    <div class="intr">
+				      <div class="pre-name">иммерсивное шоу</div>
+					  <div class="name">цифровая ночь 2035</div>
+					  <nav id="menuVertical">
+					    <ul>
+					        <li id="play"><a>Играть</a>
+					            <ul>
+					                <li class="denis"><a href="#">за Дениса</a></li>
+					                <li class="asa" ><a href="#">за Асю</a></li>
+					            </ul>
+					        </li>
+				     	</ul>
+				      </nav>
+			        </div>
+				</div>
+			</div>
+		</header>
+
+
+		<section id="about" class="section-1" >
+			<div class="container position">
+				<div class="section-1-box">
+					<div class="section-1-box__txt1">что такое цифровая ночь?</div>
+					<img src="css/img/line-1.png" alt="line" class="line">
+
+					<div class="section-1-box container position">
+						<div class="text">
+						<div class="txt-box"><p>Иммерсивное шоу Цифровая ночь - <font face='Alike-Regular'>это командная онлайн игра, где участники управляют живым человеком, проходящим квесты в лабораториях технического университета.
+
+						Участники подключаются со своих устройств к трансляции и игровому чату, получая доступ к квестовым заданиям и управлению аватарами.
+
+						Игровые персонажи - это агенты, прибывшие из будущего с целью получения контроля над технологиями чипа Нейролинка. Выбери своего героя. От тебя зависит судьба человечества!</font></p></div>
+						<a href="https://vk.com/cifronight" class = "btn" target="_blank">подробнее</a>
+					</div>
+						<div class="imgs1"></div>
+					</div>
+					
+				</div>
+				</div>	
+			</div>
+		</section>
+
+		
+		<section class="section-2">
+			<div class="container position">
+				<div class="imgbgs2"></div>
+			</div>
+		</section>
+
+		<section id="thisyear" class="section-3">
+			<div class="container position">
+				<div class="imgs3"></div>
+				<div class="txt-box-section-3">
+					<div class="txt-box-section-3__txt-1">что будет в этом году?</div>
+					<img src="css/img/line-2.png" class="line2">
+					<div class="txt-box-section-3__txt-2">Ася и Денис <font face='Alike-Regular'>застряли в прошлом
+					из-за неисправности машины времени, называемой Тайм-Джампером. Каждому необходимо успеть первым получить новый Джампер, но для этого им придется пройти через интересные испытания.</font></div>
+				</div>
+			</div>
+		</section>
+
+		<footer id="contacts">
+			<div class="container position">
+				<div class="more-us">
+					<div class="more-us-txt">Больше нас</div>
+					<div class="social-img">
+						<a href="https://vk.com/cifronight"><img src="css/img/s-vk.png"></a>
+	
+						<a href="https://t.me/cifronight"><img src="css/img/s-tg.png"></a>
+					</div>
+				</div>
+				<div class="managers">
+					<div class="managers-txt">Организаторы</div>
+					<div class="managers-img">
+						<a href="https://vk.com/cifronight"><img src="css/img/managers-img-1.png"></a>
+	
+						<a href="https://t.me/cifronight"><img src="css/img/managers-img-2.png" ></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript">
+		$(document).ready(function() {
+			$("a.link").click(function(){
+				$("html, body").animate({
+					scrollTop: $($(this).attr("href")).offset().top + "px"
+				}, {
+					duration: 1000,
+					easing: "swing"
+				});
+				return false;
+			});
+		});
+	</script>
+
+</body>
+</html>
+

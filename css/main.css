@@ -1,6 +1,5 @@
 
 /*ПОДКЛЮЧЕНИЕ ШРИФТОВ*/
-
 @font-face {
   font-family: 'Furore';
   src: url('fonts/Furore.eot');
@@ -23,7 +22,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
 body {
 	padding: 0;
 	margin: 0;
@@ -41,34 +39,25 @@ body {
 /*********************************/
 /*HEADER*/
 /*********************************/
-
 ul, li {
 	display: block;
 	padding: 0;
 	margin: 10px;
 }
-
 header a {
 	color: #FFF;
-	
 }
-
 .header{
 	background: url('../img/img1-bg.png');
 	padding-bottom:120px;
 	background-size: 100%;
 	background-size: cover;
-	
 }
 .intr{
-	width: 912px;
-	
+	width: 912px;	
 }
 .menu{
 	display: flex;
-
-
-	
 }
 .menu li a{
 	text-decoration: none;
@@ -86,7 +75,6 @@ header a {
 	font-size: 24px;
 	padding-top: 50px;
 	padding-bottom: 250px;
-
 }
 .pre-name{
 	font-size: 36px;
@@ -95,7 +83,6 @@ header a {
 	font-size: 94px;
 	padding-bottom: 40px;
 }
-
 .btn {
 	display: block;
 	font-size: 18px;
@@ -110,12 +97,9 @@ header a {
 	padding-top: -20px;
 
 }
-
 .btn:hover {
-    filter: drop-shadow(0 0 0.75rem #FFF);
-    
+    filter: drop-shadow(0 0 0.75rem #FFF); 
 }
-
 #menuVertical{
 	width:162px;
 	height:auto;
@@ -148,7 +132,6 @@ header a {
 	padding:5px 10px;
 	text-decoration:none;
 	}
-
 #menuVertical ul li ul{
 	position:absolute;
 	top:-40px;
@@ -156,8 +139,6 @@ header a {
 	display:none;
 	width:162px;
 }
-
-
 /*******показываем выпадашку при наведении ********/
 #menuVertical ul li:hover ul{display:block;}
 #menuVertical ul li ul li a{
@@ -171,10 +152,6 @@ header a {
 	border-color:#fff ;
 	filter: drop-shadow(0 0 0.75rem #FFF);
 	}
-
-
-
-
 /*********************************/
 /*SECTIONS*/
 /*********************************/
@@ -195,13 +172,11 @@ section,footer{
 .line{
 	padding-bottom: 50px;
 }
-
 .imgs1{
 	width: 681px;
 	height: 435px;
 	background: url('../img/imgs111.png');
 }
-
 /*SECTION-2*/
 .imgbgs2{
 	width: 1234px;
@@ -237,23 +212,20 @@ section,footer{
 /*FOOTER*/
 
 footer{
-padding-bottom: 150px;
-}
-	.more-us,.managers{
-		width: 340px;
-		text-align: center;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
+	padding-bottom: 150px;
 	}
-	.social-img a,.managers-img a{
-		margin-left: 30px;
-
+.more-us,.managers{
+	width: 100%;
+	text-align: center;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 	}
 
-	.more-us-txt,.managers-txt{
-		font-size: 36px;
-		padding-bottom: 50px;
+
+.more-us-txt,.managers-txt{
+	font-size: 32px;
+	padding-bottom: 50px;
 	}
 
 
@@ -274,7 +246,6 @@ padding-bottom: 150px;
 	    width: 362px;
 	    height: 376px;
 	}
-
 	.line2 {
 	    width: 565px;
 	}
@@ -293,20 +264,17 @@ padding-bottom: 150px;
 	    width: 547px;
 	    font-size: 18px;
 	}
-	
 }
 
 @media screen and (max-width: 1200px) {
 	.container {
 		width: 1066px;
 	}
-
 	.txt-box{
 	width: 329px;
 	font-size: 18px;
 	}
 }
-
 @media screen and (max-width: 1199px) {
 	.container {
 		width: 772px;
@@ -325,7 +293,6 @@ padding-bottom: 150px;
 	}
 	.txt-box-section-3__txt-1 {
     font-size: 31px;
-
 	}
 	.imgs3 {
     width: 304px;
@@ -334,17 +301,13 @@ padding-bottom: 150px;
 	.txt-box {
     width: 361px;
 	}
-
 	.imgs1 {
 
     width: 402px;
     height: 318px;
     background: url(../img/imgs111-772.png);
-
 	}
-
 }
-
 @media screen and (max-width: 991px) {
 	.container {
 		width: 780px;
@@ -352,7 +315,6 @@ padding-bottom: 150px;
 	.intr{
 		width: 720px;
 	}
-
 }
 
 @media screen and (max-width: 768px) {
@@ -362,7 +324,6 @@ padding-bottom: 150px;
 	.header{
 	background: url('../img/imgs111-mobile.png');
 	background-size: cover;	}
-	
 	.name {
     font-size: 57px;
     padding-bottom: 27px;
@@ -398,7 +359,6 @@ padding-bottom: 150px;
     .txt-box-section-3__txt-2 {
     width: 365px;
 	}
-
 	.imgs1 {
     width: 365px;
     height: 224px;
@@ -417,13 +377,8 @@ padding-bottom: 150px;
 	.imgbgs2{
 		width: 357px;
 		height: 240px;
-		background: url('../img/sec2-mobile.png');
-	    
+		background: url('../img/sec2-mobile.png');	    
 	}
-	
-
-	
-
 
 
 }
